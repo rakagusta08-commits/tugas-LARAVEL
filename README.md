@@ -23,8 +23,7 @@ Berikut adalah fungsionalitas utama yang telah berhasil diimplementasikan:
 ## 📸 Hasil Pengerjaan (Preview)
 Berikut adalah tampilan antarmuka aplikasi yang dijalankan melalui server lokal:
 
-![Tampilan Web Aplikasi](resources/asset/screenshot-web.png)
-
+![Screenshot Utama](resources/asset/screenshot-web.png)
 ---
 
 ## 🛠 Teknologi yang Digunakan
