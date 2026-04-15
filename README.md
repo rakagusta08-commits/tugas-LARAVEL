@@ -1,35 +1,48 @@
-# 🏢Sistem Manajemen Karyawan - SMKN 4 Bandung
+# 🏢 Sistem Manajemen Karyawan - SMKN 4 Bandung
 
-Tugas mandiri pengembangan aplikasi web berbasis framework Laravel untuk mengelola data SDM secara dinamis.
+Tugas mandiri pengembangan aplikasi web berbasis framework Laravel untuk mengelola data SDM (Sumber Daya Manusia) secara dinamis dan terintegrasi.
 
-##  Identitas Pengembang
+## 👤 Identitas Pengembang
 * **Nama:** Raka Augusta Syabani (Gustavo)
-* **Kelas:** XI RPL (Software Engineering)
+* **Kelas:** XI RPL 1
 * **Sekolah:** SMKN 4 Bandung
+* **Project Name:** HR Management System (TESLARA1)
 
 ---
 
-##  Fitur & Pencapaian Tugas
-Berikut adalah poin-poin yang telah berhasil diselesaikan sesuai instruksi:
+## 🚀 Fitur & Pencapaian Tugas
+Berikut adalah fungsionalitas utama yang telah berhasil diimplementasikan:
 
-1. **Model & Relasi Baru**: Berhasil menambahkan Model `Jabatan` yang terhubung langsung dengan tabel `Karyawan`.
-2. **Join Data**: Halaman utama menampilkan hasil join antara data Karyawan dan Jabatan (Nama, Level, dan Gaji Pokok).
-3. **Fitur Search**: Menambahkan fungsionalitas pencarian nama karyawan secara real-time melalui query builder.
-4. **Custom Style**: Tampilan web dirombak menggunakan **Tailwind CSS** agar terlihat modern, bersih, dan responsif.
+1. **Arsitektur Database**: Menggunakan sistem relasi antar tabel (One-to-Many) antara tabel `Jabatan` dan `Karyawan`.
+2. **Master Data Jabatan**: Pengelolaan data jabatan, level, dan standar gaji pokok.
+3. **Join Data & Relasi**: Menampilkan informasi gaji secara otomatis berdasarkan jabatan yang dipilih.
+4. **UI/UX Modern**: Desain antarmuka menggunakan **Tailwind CSS** yang bersih dan responsif.
 
 ---
 
 ## 📸 Hasil Pengerjaan (Preview)
-Berikut adalah tampilan antarmuka aplikasi yang sudah dijalankan di localhost:
+Berikut adalah tampilan antarmuka aplikasi yang dijalankan melalui server lokal:
 
-![Screenshot Utama](screenshot-web.png)
-
-> **Catatan:** Jika gambar tidak muncul, pastikan kamu sudah mengupload file foto hasil screenshot kamu ke GitHub dengan nama `screenshot-web.png`.
+![Tampilan Web Aplikasi](./resources/asset/screenshot-Web.png)
 
 ---
 
-##  Teknologi yang Digunakan
-* **Backend:** PHP 8.x & Laravel 13
-* **Frontend:** Tailwind CSS (via CDN/Vite)
-* **Database:** MySQL
-* **Tools:** Visual Studio Code & Git
+## 🛠 Teknologi yang Digunakan
+* **Backend:** PHP 8.x & Laravel
+* **Frontend:** Tailwind CSS & Blade Templating
+* **Database:** MySQL / SQLite
+* **Version Control:** Git & GitHub
+
+---
+
+## ⚙️ Cara Menjalankan Proyek
+1. Clone repository ini.
+2. Jalankan `composer install`.
+3. Salin file `.env.example` menjadi `.env`.
+4. Jalankan `php artisan key:generate`.
+5. Jalankan `php artisan migrate --seed`.
+6. Jalankan `php artisan serve`.
+7. Akses di browser melalui `http://127.0.0.1:8000`.
+
+---
+*Dibuat dengan dedikasi untuk memenuhi tugas mata pelajaran Produktif Rekayasa Perangkat Lunak.*
